@@ -8,6 +8,7 @@ table {
     size: 1.125em;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     width: auto;
     height: auto;
 }
@@ -31,5 +32,90 @@ tr,th,td {
 .product:nth-child(odd){
     background-color: #edf5e1;
     border:1px solid #06202B;
+}
+
+.form{
+    padding: 20px;
+}
+
+#custom-form {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#custom-form table {
+    border-collapse: collapse;
+    border: 5px solid #06202B;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 60%; /* Smaller width */
+    background-color: #ffffff;
+}
+
+#custom-form caption {
+    border: 5px solid #06202B;
+    background-color: #7AE2CF;
+    padding: 25px;
+    font-weight: bold;
+}
+
+#custom-form tr,
+#custom-form th,
+#custom-form td {
+    border: 1px solid #06202B;
+    padding: 20px 12px; /* Increased vertical padding */
+}
+
+#custom-form th {
+    background-color: #077A7D;
+    color: #edf8e1;
+    text-align: center;
+    height: 60px;
+}
+
+#custom-form td {
+    background-color: #f9f9f9;
+    height: 60px; /* Makes rows taller */
+    vertical-align: middle;
+}
+
+#custom-form tr:nth-child(even) td {
+    background-color: #edf5e1;
+}
+
+#custom-form .form {
+    padding: 20px;
+}
+
+#custom-form input[type="text"],
+#custom-form select,
+#custom-form textarea {
+    width: 95%;
+    padding: 10px 8px;
+    border: 1px solid #06202B;
+    border-radius: 4px;
+}
+
+#custom-form textarea {
+    resize: vertical;
+    min-height: 150px; /* Taller textarea */
+}
+
+#custom-form input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+#custom-form input[type="submit"] {
+    background-color: #077A7D;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#custom-form input[type="submit"]:hover {
+    background-color: #055c5d;
 }
 
