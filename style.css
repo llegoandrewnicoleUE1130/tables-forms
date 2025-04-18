@@ -38,6 +38,26 @@ tr,th,td {
     padding: 20px;
 }
 
+#tables table:hover {
+    background-color: #06202B;
+    color: #ffffff;
+}
+
+#tables table:hover .headers {
+    background-color: #edf8e1;
+    color: #077A7D;
+}
+
+#tables table:hover td,
+#tables table:hover th {
+    background-color: #06202B;
+    color: #ffffff;
+}
+
+#tables table:hover .product:nth-child(odd) {
+    background-color: #055c5d;
+}
+
 #custom-form {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
