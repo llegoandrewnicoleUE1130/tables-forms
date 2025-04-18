@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Invoice Data</title>
+<title>Finals_HO1_Llego</title>
 <link rel="stylesheet" href = "style.css">
 <style> </style>
 </head>
@@ -78,6 +78,49 @@
     <th class = "headers" style="text-align: right;">$118.80</td>
   </tr>
 </table>
+
+<div id= "custom-form"
+<form action="#" method="POST">
+  <table class = "form">
+      <tr>
+          <th class = "headers" style="text-align: center;">Name</th>
+          <th class = "headers" style="text-align: center;">Value</th>
+      </tr>
+      <tr>
+          <td>Name:</td>
+          <td><input type="text" name="name" placeholder="Type Name Here"></td>
+      </tr>
+      <tr>
+          <td>Eye Color</td>
+          <td>
+              <select name="eye_color">
+                  <option value="black">Black</option>
+                  <option value="brown">Brown</option>
+                  <option value="blue">Blue</option>
+                  <option value="green">Green</option>
+                  <option value="other">Other</option>
+              </select>
+          </td>
+      </tr>
+      <tr>
+          <td>Check all that apply</td>
+          <td>
+              <input type="checkbox" name="athletic_ability" value="over_6ft_tall">Over 6ft tall<br>
+              <input type="checkbox" name="athletic_ability" value="over_200_pounds">Over 200 pounds<br>
+              <input type="checkbox" name="athletic_ability" value="less_than_200_pounds">Less than 200 pounds
+          </td>
+      </tr>
+      <tr>
+          <td>Describe your athletic ability</td>
+          <td><textarea name="description" rows="8"></textarea></td>
+      </tr>
+      <tr>
+          <td colspan="2" style="text-align: center;">
+              <input type="submit" value="Enter My Information">
+          </td>
+      </tr>
+  </table>
+</form>
 
 
 
